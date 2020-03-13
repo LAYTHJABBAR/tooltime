@@ -16,9 +16,9 @@ See:
 - `pwd`: displays your 'present working directory'. This will usually default to your home folder when you first open your terminal.
 - `ls`: lists the contents of your current directory. The `-l` flag lists extra information and `-a` lists hidden files. `-la` will list extra information and also all hidden files.
 - `cd`: changes your directory based on the path you provide after the command (separated by a space). Examples:
-  - `$ cd Documents/fast-track`
-  - `$ cd /h/sait/fast-track`
-  - `$ cd ../..`
+  - `$ cd Documents/my-project`
+  - `$ cd /path/to/my-project`
+  - `$ cd ../..`: moves up two directories
 
 Quality of life cli tips
 - tab: auto-completes file names and directories
