@@ -61,7 +61,7 @@ see: [Getting Started with GitHub](https://help.github.com/en/github/getting-sta
 
 ### Cloning a repo from GitHub
 #### Option 1: Upload files and clone
-1. Create empty GH repo with initialized README.md (see: [Creating a Repo](https://help.github.com/en/github/getting-started-with-github/create-a-repo)
+1. Create empty GH repo with initialized README.md (see: [Creating a Repo](https://help.github.com/en/github/getting-started-with-github/create-a-repo))
 2. Drag and drop files into your repo
 3. Copy the clone url (look for the big green button on the main repo page that says "Clone or download")
 3. Clone repo to your file system with `git clone [url you just copied]`
