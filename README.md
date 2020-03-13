@@ -37,7 +37,9 @@ Quality of life cli tips
 - Default file name for documentation README (located in the root directory of a project; extension can vary but is usually .txt. or .md)
 
 ## Git
-See: [Git Terms and Definitions](https://linuxacademy.com/blog/linux/git-terms-explained/)
+See: 
+- [Git Terms and Definitions](https://linuxacademy.com/blog/linux/git-terms-explained/)
+- [Git and GitHub for Poets](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV&index=1)
 
 ### Activity: [Configuring Git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 - Setting your name
