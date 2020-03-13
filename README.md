@@ -1,8 +1,9 @@
 # Tool Time: Git, GitHub and GH Pages
-## Installing Git
+## Setup
+### Installing Git
 [Download and install Git](https://git-scm.com/downloads) if you haven't already. For Windows users, this will also install Git Bash, the command line terminal you'll be using to access Git features.
 
-## Create GitHub Account
+### Create GitHub Account
 [Create a GitHub Account](https://github.com/) if you haven't already. Github is a company that has created a developer community around the Git technology but Git and GitHub are not the same. We'll be using GH to share our repositories and publish websites on [GH Pages](https://pages.github.com/).
 
 ## Command Line: Navigating the file system
@@ -24,8 +25,7 @@ Quality of life cli tips
 - tab: auto-completes file names and directories
 - up arrow: browse through command history
 
-## URIs, URLs, and file paths
-### Naming conventions
+### Naming conventions: URIs, URLs, and file paths
 - Files should be named consistently
 - File names should be short but descriptive (<25 characters)
 - Avoid special characters or spaces in a file name
@@ -36,28 +36,32 @@ Quality of life cli tips
 - Default file name for js: app.js or index.js
 - Default file name for documentation README (located in the root directory of a project; extension can vary but is usually .txt. or .md)
 
-## Activity: [Configuring Git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+## Git
+### Activity: [Configuring Git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 - Setting your name
 - Setting your email
 - Setting up your keys (optional)
   - [Why does GitHub recommend HTTPS over SSH?](https://stackoverflow.com/questions/11041729/why-does-github-recommend-https-over-ssh)
   - [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-## Top Git commands
+### Top Git commands
 - `$ git status`: Show the working tree status. This gives you the big picture status of your project.
 - `$ git add`: Add file contents to be committed (also called the staging area). You need to explictly tell Git what changes you want to commit to your repository. It seems unneccessary at first but there's a good reason for this.
 - `$ git commit`: Record changes to the repository. This "saves" the changes that were added earlier to your repo. You will usually include the `-m` flag to add a comment (which is mandatory).
 - `$ git push`: "Push" your local changes to a remote repo (usually a GitHub repo).
 - `$ git pull`: "Pull" changes from a remote repo to your local repo.
 
-## Cloning a repo from GitHub
-### Option 1: Upload files and clone
+### Creating a new repository
+See [Create a New Repository](https://stackabuse.com/git-create-a-new-repository/Create a New Repository) for the basics of initializing and committing a repository.
+
+### Cloning a repo from GitHub
+#### Option 1: Upload files and clone
 1. Create empty GH repo with initialized README.md
 2. Drag and drop files into your repo
 3. Copy the clone url (look for the big green button on the main repo page that says "Clone or download")
 3. Clone repo to your file system with `git clone [url you just copied]`
 
-### Option 2: Push from existing local repo
+#### Option 2: Push from existing local repo
 1. Create empty GH repo WITHOUT initialized README.md
 2. Follow listed instructions for "*…or push an existing repository from the command line*"  
 
