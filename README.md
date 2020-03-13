@@ -51,7 +51,7 @@ See:
 ### Top Git commands
 - `$ git status`: Show the working tree status. This gives you the big picture status of your project.
 - `$ git add`: Add file contents to be committed (also called the staging area). You need to explictly tell Git what changes you want to commit to your repository. It seems unneccessary at first but there's a good reason for this.
-- `$ git commit`: Record changes to the repository. This "saves" the changes that were added earlier to your repo. You will usually include the `-m` flag to add a comment (which is mandatory).
+- `$ git commit -m "example message"`: Record changes to the repository. This "saves" the changes that were added earlier to your repo. You will usually include the `-m` flag to add a comment (which is mandatory).
 - `$ git push`: "Push" your local changes to a remote repo (usually a GitHub repo).
 - `$ git pull`: "Pull" changes from a remote repo to your local repo.
 
